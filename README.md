@@ -1,2 +1,2 @@
 # DigiVault
-DigiVault is a secure digital locker that stores and organizes important documents in one place, making them easy to access anytime while keeping them safe.
+DigiVault is a secure digital locker that stores and organizes important documents in one place, making them easy to access anytime while keeping them safe.The main purpose of DigiVault is to eliminate the need for physical files and scattered digital folders. Instead of searching across devices or worrying about losing important documents, users can keep everything stored securely within the app. DigiVault ensures privacy through safe login authentication and protected storage mechanisms that prevent unauthorized access.
