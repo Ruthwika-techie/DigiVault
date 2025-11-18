@@ -1,10 +1,68 @@
-DigiVault combines secure document management, smart card integration, government-ready architecture and integration with other identity services into a single, software as a service (SaaS) based solution. Here is what makes it unique about:
-• 🗂️ Hybrid Storage Model: DigiVault offers a hybrid storage model unlike DigiLocker or Google Drive with folders and subfolders. This allows users to organize documents and digital cards more intuitively.
-• 🔗 Live Card Linking: Any stored card, such as Aadhaar, PAN, or insurance, can be linked to the official card website for real time updates, renewals, and verifications, closing the divide between storage and dynamic services.
-• 🛡️ Emergency Vault Access: People can reach important documents through a special offline mode even when they cannot get online.
-• 	🧠 Smart Features:
-• 	Document and card expiry reminders
+🧠 Why DigiVault is Unique
+DigiVault isn’t just another file storage app. It’s a personal vault with intelligence:
+• 	🗂️ Hybrid Storage Model
+Organize documents and cards using folders and subfolders—something apps like DigiLocker or Google Drive don’t offer natively.
+• 	🔗 Live Card Linking
+Link stored cards (Aadhaar, PAN, insurance) directly to their official websites for real-time updates, renewals, and verification.
+• 	🛡️ Emergency Vault Access
+Access critical documents offline during emergencies—no internet, no problem.
+• 	🧠 Smart Features
+• 	Expiry reminders for documents and cards
 • 	Tag-based search for quick retrieval
 • 	QR-based secure sharing
-• 🏛️ E-Governance Ready: Scalable architecture has APIs. The APIs can integrate with government applications. The applications include DigiLocker, UIDAI, and mParivahan for potential nationwide application.
-• 🌍 Inclusive design: With multi-language, accessibility-first, and biometric security features, it is easy to use for all across India and abroad.
+• 	🏛️ E-Governance Ready
+Built with scalable APIs for integration with DigiLocker, UIDAI, mParivahan, and other government platforms.
+• 	🌍 Inclusive Design
+Multi-language support, accessibility-first UI, and biometric security make it usable for everyone—from urban professionals to rural citizens.
+
+🛠️ Technical Architecture
+DigiVault follows the MVVM (Model-View-ViewModel) pattern for clean separation of concerns:
+• 	Model: Uses Room Database to store documents and metadata
+• 	View: Android UI screens built with Material Design
+• 	ViewModel: Handles business logic, data flow, and background tasks
+This structure makes the app easy to maintain, test, and scale.
+
+⚙️ Technology Stack
+• 	Language: Kotlin
+• 	IDE: Android Studio
+• 	Database: Room
+• 	Reminders: WorkManager
+• 	UI: Material Design Components
+• 	Security: AndroidX Biometric Library
+• 	Optional Add-ons:
+• 	ML Kit OCR for auto-reading expiry dates
+• 	CameraX for document scanning
+
+🔄 System Workflow
+1. 	User adds a document
+→ Enters name, scans/uploads photo, selects expiry date
+2. 	Data stored in Room Database
+→ Metadata saved in Document table
+3. 	WorkManager schedules reminders
+→ Based on expiry date
+4. 	App shows notifications
+→ “Expiring Soon”, “Expired”, “Safe Zone”
+5. 	Dashboard updates dynamically                                                                                       App Modules
+- Document Manager: Add, edit, delete documents
+- Reminder Engine: Schedule and trigger expiry alerts
+- Security Layer: Biometric lock and data encryption
+- Dashboard: Visual summary of document status
+- Settings: Customize reminders, toggle themes
+
+🚀 Installation & Setup
+- Clone the repository
+- Open in Android Studio
+- Sync Gradle
+- Connect device/emulator
+- Run the app
+
+✅ Testing Strategy
+- Add/edit/delete document flow
+- Reminder scheduling and notification accuracy
+- Biometric authentication
+- UI responsiveness and navigation
+- Edge cases:
+- Same-day expiry
+- Past expiry dates
+- Multiple documents expiring in same week
+
