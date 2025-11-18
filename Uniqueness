@@ -42,7 +42,9 @@ This structure makes the app easy to maintain, test, and scale.
 → Based on expiry date
 4. 	App shows notifications
 → “Expiring Soon”, “Expired”, “Safe Zone”
-5. 	Dashboard updates dynamically                                                                                       App Modules
+5. 	Dashboard updates dynamically                                                                                       
+
+App Modules
 - Document Manager: Add, edit, delete documents
 - Reminder Engine: Schedule and trigger expiry alerts
 - Security Layer: Biometric lock and data encryption
