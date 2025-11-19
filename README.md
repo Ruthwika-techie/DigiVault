@@ -1,3 +1,7 @@
+# Team-06
+- 1:Thota.Ruthwika 24WH1A0540 CSE-A
+- 2:Daggu.Nandini 24WH1A0543 CSE-A
+- 3:Subhi Saxena CSE-D
 # DigiVault
 DigiVault is a secure digital locker that stores and organizes important documents in one place, making them easy to access anytime while keeping them safe.The main purpose of DigiVault is to eliminate the need for physical files and scattered digital folders. Instead of searching across devices or worrying about losing important documents, users can keep everything stored securely within the app. DigiVault ensures privacy through safe login authentication and protected storage mechanisms that prevent unauthorized access.
 # Problem Statement
@@ -32,7 +36,7 @@ Everything works without internet, so documents are always reachable.
 Shows all upcoming expiry dates and urgent documents clearly.
 - Category System
 IDs, Vehicle, Education, Insurance, Travel, Work-related, etc.
-# Good-to-Have Features (Optional but Valuable)
+# Good-to-Have Features 
 - Folder and Subfolder Structure
 Allows users to organise documents better than normal drive apps.
 - Live Card Linking
@@ -65,7 +69,3 @@ Simple viewing in low light.
 - ViewModel: Handles reminders and business logic.
 # Timeline
 - 7 days
-# TeamName-PixelDivas - 06
-- Teammate 1:Thota.Ruthwika 24WH1A0540 CSE-A
-- Teammate 2:Daggu.Nandini 24WH1A0543 CSE-A
-- Teammate 3:Subhi Saxena CSE-D
