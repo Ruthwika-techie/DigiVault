@@ -66,6 +66,6 @@ Simple viewing in low light.
 # Timeline
 - 7 days
 # TeamName-PixelDivas - 06
-->Teammate 1:Thota.Ruthwika 24WH1A0540 CSE-A
-->Teammate 2:Daggu.Nandini 24WH1A0543 CSE-A
-->Teammate 3:Subhi Saxena CSE-D
+-Teammate 1:Thota.Ruthwika 24WH1A0540 CSE-A
+-Teammate 2:Daggu.Nandini 24WH1A0543 CSE-A
+-Teammate 3:Subhi Saxena CSE-D
