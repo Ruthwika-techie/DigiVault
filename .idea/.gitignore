@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Android / Gradle
+.gradle/
+build/
+local.properties
+
+# IDE
+.idea/
+*.iml
